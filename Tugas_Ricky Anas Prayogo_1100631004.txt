@@ -1,0 +1,66 @@
+
+https://www.facebook.com/
+
+REQUEST...
+GET / HTTP/1.1
+"mengambil data login dari server
+___________________________________________________"
+Host: www.facebook.com
+"nama sebuah komputer yang terhubung pada internet (terhubung pada facebook)"
+___________________________________________________________________________________________________________________________
+
+User-Agent: Mozilla/5.0 (Windows NT 6.2; WOW64; rv:25.0) Gecko/20100101 Firefox/25.0
+"Clien menggunakan browser mozilla firefox
+____________________________________________________________________________________________________________________
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+"server menerima text/html,application"
+_____________________________________________________________________
+Accept-Language: en-US,en;q=0.5
+"server menerima bahasa dari facebook yang dituju yaitu menggunakan bahasa United Stated"
+__________________________________________________________
+Accept-Encoding: gzip, deflate
+"menerima encoding Gzip Deflate"
+______________________________________________
+Cookie: datr=LyT1UXTorW8t4HQ-5-8sNXTl; fr=0YtVuk6gYeJLR4uH8.AWXFfNWieTHaw2FPrFbTKsC4BMY.BR9SRv.ta.FJD.AWUYV8lM; lu=gAsHIzE73Rmy8phdrcEiT-sQ; locale=id_ID; reg_fb_gate=https%3A%2F%2Fwww.facebook.com%2F%3Fstype%3Dlo%26jlou%3DAfeRO6J_oQ3cPlUzqKyuGFKy5M6YmJkEe8AqG78Lu1TW4k3tYO_gsPU8dpkiMGtHyVUpq00axne2rRQtBm4nHcA8R7hBxoLkIVGNB8v5s2d-iw%26smuh%3D58845%26lh%3DAc_RdZKDRANheRTX; reg_fb_ref=https%3A%2F%2Fwww.facebook.com%2F; wd=1252x530; dpr=1.0909091234207153
+""
+______________________________________________
+Connection: keep-alive
+
+
+
+RESPON...
+HTTP/1.1 200 OK
+"pesan sukses"
+______________________________________________________________________________________________________________________
+Cache-Control: private, no-cache, no-store, must-revalidate
+"tidak ada control, tidak ada chace"
+______________________________________
+Expires: Sat, 01 Jan 2000 00:00:00 GMT
+"tanggal kadaluarsa  01 Jan 2000 00:00:00 GMT "
+________________________________________________
+P3P: CP="Facebook does not have a P3P policy. Learn why here: http://fb.me/p3p"
+""
+____________________
+Pragma: no-cache
+X-Content-Type-Options: nosniff
+x-frame-options: DENY
+X-XSS-Protection: 0
+Set-Cookie: dpr=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.facebook.com; httponly
+Set-Cookie: reg_ext_ref=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.facebook.com
+Set-Cookie: wd=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.facebook.com; httponly
+________________________________________
+Content-Encoding: gzip
+"menerima konten encoding:gzip"
+____________________________
+Content-Type: text/html; charset=utf-8
+"tipe conten adalah text/html; charset=utf-8
+______________________________________________
+X-FB-Debug: yQPNAHg4CywP4L9ws32wVnIaDxg1iHNCT7xCvGPvMkY=
+""
+__________________________________________________________________________________________
+Date: Thu, 26 Sep 2013 04:10:54 GMT
+"tanggal memproses facebook 26 Sep 2013 04:10:54 GMT
+____________________________________________
+Transfer-Encoding: chunked
+Connection: keep-alive
+----------------------------------------------------------
